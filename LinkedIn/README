@@ -1,2 +1,13 @@
 The crawler is intended to work for a single letter by default set to 'a'.
 To crawl other letters, manual change is needed.
+The entire company directory spans from #-A-B-C.....-Z with over 7 millions+ company urls.
+
+For eg: To crawl letter 'b'
+Original: url="https://www.linkedin.com/directory/companies-a-"+str(num)+"/"
+Modified: url="https://www.linkedin.com/directory/companies-b-"+str(num)+"/"
+
+To crawl for symbol '#'
+url="https://www.linkedin.com/directory/companies-more-"+str(num)+"/"
+
+The output of the program will be text file with company urls.
+For each letter, 100 different files will be generated.
