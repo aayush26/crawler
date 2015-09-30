@@ -11,7 +11,6 @@ def crawl(num) :
 	fw1 = open(name, "a")
 	fw2 = open(fname, "a")
 	urls=[url]
-	visited=[url]
 	company_url = []
 	failed_url = []
 	while len(urls) > 0:
@@ -29,7 +28,6 @@ def crawl(num) :
 					company_url.append(l)
 					continue
 				urls.append(l)
-				visited.append(l)
 		except:
 			failed_url.append(urls[0])
 			pass
