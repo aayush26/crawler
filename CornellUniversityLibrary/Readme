@@ -1,0 +1,14 @@
+Download ebooks of Making of America  
+From year 1844 to 1852.  
+The crawler can be modified to change the range of years.  
+
+Create a new directory and run this python script inside it in terminal:
+python library_cornell_ebook.py  
+
+The output will be of form:
+year/month_of_issue/pageNo.pdf
+
+Eg: 1844/January/1.pdf
+    1844/January/2.pdf
+    1844/April/1.pdf
+    1845/January/1.pdf
